@@ -4,6 +4,10 @@
 let a = 10
 let b = a + 1
 
+// val vs let
+// let has to be initialized
+// val can be used in classes or structures without being initialized
+
 // Variables by default are IMMUTABLE
 // That means their value cannot be changed after assignment
 
@@ -51,3 +55,13 @@ let operatorsReference =
 // %b - bool
 // %A - any value, formatted with default layout settings
 // %% - prints a %
+
+// UNITS OF MEASURES
+[<Measure>] type kg
+[<Measure>] type m
+[<Measure>] type s
+
+let gravityOnEarth = 9.81<m/s^2>    // an acceleration
+let myHeight = 1.84<m>              // a distance
+
+//let sum = gravityOnEarth + myHeight   // Error - measures don't match!
