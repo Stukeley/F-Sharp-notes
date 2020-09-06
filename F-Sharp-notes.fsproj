@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>F_Sharp_test</RootNamespace>
+    <AssemblyName>F-Sharp-notes</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Classes.fs" />
+    <Compile Include="DataStructures.fs" />
+    <Compile Include="Variables.fs" />
+    <Compile Include="Functions.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+</Project>
