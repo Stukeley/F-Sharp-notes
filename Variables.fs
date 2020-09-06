@@ -47,6 +47,10 @@ let operatorsReference =
     let isEqual:bool = a = b
     printfn "%b" (not isEqual)  // not - reverses the logical state
 
+    "1" |> ignore   // |> operator means "apply function [on the right] to value [on the left]"
+
+    // :> operator is used for casting to a type higher in hierarchy
+
 // printf / printfn formats
 // %i, %d - int
 // %f - float

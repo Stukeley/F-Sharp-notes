@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="Asynchronous.fs" />
     <Compile Include="Classes.fs" />
     <Compile Include="DataStructures.fs" />
     <Compile Include="Variables.fs" />
